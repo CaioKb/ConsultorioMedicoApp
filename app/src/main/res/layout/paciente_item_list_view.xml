@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewIdListarPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/textViewNomeListarPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome: "/>
+
+        <TextView
+            android:id="@+id/textViewGrupoSanguineoListarPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo sanguíneo: "/>
+
+        <TextView
+            android:id="@+id/textViewCelularListarPaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Celular: " />
+
+        <TextView
+                android:id="@+id/textViewFixoListarPaciente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefone fixo: " />
+
+</LinearLayout>

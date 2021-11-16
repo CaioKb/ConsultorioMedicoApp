@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ConsultorioMedico</string>
+    <string name="list">Listar</string>
+    <string name="add">Adicionar</string>
+    <string name="consultas">Consultas</string>
+    <string name="medico">Médico</string>
+    <string name="paciente">Paciente</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="nome">Nome</string>
+    <string name="crm">CRM</string>
+    <string name="telefone_fixo">Telefone Fixo</string>
+    <string name="telefone_celular">Celular</string>
+    <string name="salvar">Salvar</string>
+    <string name="database_name">consultorio</string>
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar informações</string>
+    <string name="consultorioMedico">Consultório Médico</string>
+    <string name="grupoSanguineo">Grupo Sanguíneo</string>
+    <string name="adicionarPaciente">Adicionar Paciente</string>
+    <string name="adicionarMedico">Adicionar Médico</string>
+    <string name="listaDePaciente">Lista de Pacientes</string>
+    <string name="adicionarConsulta">Adicionar Consulta</string>
+    <string name="dataInicio">Data/Hora Início</string>
+    <string name="dataFim">Data/Hora Fim</string>
+    <string name="listaDeConsultas">Consultas</string>
+    <string name="listarMedicos">Listar Médicos</string>
+    <string name="observacao">Observação</string>
+    <string-array name="tiposSanguineosArray">
+        <item>A+</item>
+        <item>A-</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>B</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_consultas"
+            android:title="@string/consultas" />
+    <item
+            android:id="@+id/menu_medico"
+            android:title="@string/medico" />
+    <item
+            android:id="@+id/menu_paciente"
+            android:title="@string/paciente" />
+</menu>

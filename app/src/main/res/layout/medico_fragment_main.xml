@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:paddingTop="20sp"
+        android:layout_margin="20dp"
+        tools:context=".MainActivity">
+    <TextView
+            android:id="@+id/textViewMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medico"
+
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" >
+
+        <Button
+                android:id="@+id/buttonListarMedico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/list"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        <Button
+                android:id="@+id/buttonAdicionarMedico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:text="@string/add"
+                android:textAlignment="center"
+                android:textSize="18sp"/>
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/frameMedico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </FrameLayout>
+
+</LinearLayout>
